@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1380px;
+}
+
+.main-box {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sub-box {
+    border: 2px solid black;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.image {
+    justify-content: center;
+    text-align: center;
+    margin-top: inherit;
+}
+
+.form-information {
+    text-align: center;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.info {
+    padding: 20px;
+    padding-right: 0;
+    padding-right: 0;
+}
+
+lable {
+    float: right;
+}
+
+input {
+    margin-left: 10px;
+    width: 300px;
+}
+
+.btns {
+    margin-bottom: 15px;
+}
+
+.sub {
+    margin-bottom: 30px;
+    display: inline;
+}
+
+.sub:first-child {
+    padding-right: 30px;
+}
+
+.sub:last-child {
+    padding-left: 30px;
+    padding-right: 20px;
+}
